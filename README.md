@@ -10,7 +10,7 @@ Since every qubit has its own relaxation time, too long executing time will caus
 
 We create the graph state class to rearrange the CZ gates. One can create the edges list and put it on graph state state class. In the code, we have already put our best result, 0.972, of all tests and corresponding Job ID. 
 <img src="/images/backend.png" width="500" height="300">   
-<img src="/images/combinations.png" width="500" height="300">  
+<img src="/images/combinations.png" width="550" height="300">  
 
 
 ## CZ_gate pulse
