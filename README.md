@@ -12,8 +12,8 @@ Moreover, we decompose the CX gate pulse and reconstruct the CZ gate instead of 
 ## Graph state class
 
 We create the graph state class to rearrange the CZ gates. One can create the edges list and put it on graph state state class. In the code, we have already put our best result, 0.972, of all tests and corresponding Job ID. 
-<img src="/images/backend.png" width="600" height="400">   
-<img src="/images/combinations.png" width="500" height="300">  
+<img src="/images/backend.png" width="700" height="500">   
+<img src="/images/combinations.png" width="700" height="500">  
 
 
 ## CZ_gate pulse
