@@ -1,8 +1,7 @@
 # Qiskit-Graph-state-improvement
 
-In the design of our circuit, the execution time to complete a cycle of the circuit should be controlled in a small amount of time due to different relaxation time of each qubit. 
-Therefore, it is critical to shorten the execution time in order to effectively operate the qubits and optimize the measurement results. 
-In our circuit, the CZ gates on different sites communicate with each other, therefore, we rearrange the order of the CZ gates in order to find the graph state with the shortest execution time.
+Because each qubit has decoherence time, we need to shorten circuit depth as possible as we can so that the execution time of each quantum circuit is shorter.
+Since the CZ gates on different sites communicate with each other, one can rearrange the order of the CZ gates in order to find the graph state with the shortest execution time.
 Moreover, we decompose the CX gate pulse and reconstruct the CZ gate instead of using two hardamard gates and CX gate.
 
 
